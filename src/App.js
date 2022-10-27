@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Weather from './Weather';
 
 function App() {
   return (
     <div className="App">
-      <p>React Weather app</p>
-      <p><a href='https://github.com/Emilua/react-weather-app.git' target="_blank">My Github space.</a>Contact me</p>
+      <div className='container'>
+        <Weather />
+        <p>React Weather app</p>
+        <p><a href='https://github.com/Emilua/react-weather-app.git' target="_blank" rel="noreferrer">My Github space.</a>Contact me</p>
+      </div>
     </div>
   );
 }
